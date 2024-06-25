@@ -1,18 +1,24 @@
-# Salesforce DX Project: Next Steps
+# Alert Component
 
-Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+## Overview
 
-## How Do You Plan to Deploy Your Changes?
+Although Salesforce will release a functionality in the Summer ’25 release to generate alerts with the option to discard records, in the meantime, this LWC notifies users about record statuses. This Alert Component is a practical Lightning Web Component designed to enhance user notifications within Salesforce. It supports different display methods (popup, banner) and alert types (warning, error, info), making it suitable for a wide range of use cases.
 
-Do you want to deploy a set of changes, or create a self-contained application? Choose a [development model](https://developer.salesforce.com/tools/vscode/en/user-guide/development-models).
+<img src="img/warning_alert.png" alt="TOTP Example" width="700"/>
 
-## Configure Your Salesforce DX Project
+## Installation
 
-The `sfdx-project.json` file contains useful configuration information for your project. See [Salesforce DX Project Configuration](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_ws_config.htm) in the _Salesforce DX Developer Guide_ for details about this file.
+1. Clone the repository or download the zip file.
+2. Deploy the alertComponent LWC to your Salesforce org.
+3. Place the component in the desired Lightning page. 
+4. Configure the properties to customize the alert behavior and the component visibility to filter when the message should be shown
 
-## Read All About It
+<img src="img/properties.png" alt="Properties" width="400"/>
 
-- [Salesforce Extensions Documentation](https://developer.salesforce.com/tools/vscode/)
-- [Salesforce CLI Setup Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_intro.htm)
-- [Salesforce DX Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.sfdx_dev.meta/sfdx_dev/sfdx_dev_intro.htm)
-- [Salesforce CLI Command Reference](https://developer.salesforce.com/docs/atlas.en-us.sfdx_cli_reference.meta/sfdx_cli_reference/cli_reference.htm)
+## Alert Types
+
+- Toast
+- SLDS alert banner
+- Lightning-alert
+
+<img src="img/alert_types.png" alt="TOTP Example" width="500"/>
