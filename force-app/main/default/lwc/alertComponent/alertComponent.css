@@ -1,0 +1,37 @@
+.slds-notify {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.slds-notify__content {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.slds-notify__close {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.slds-button__icon-inverse {
+    fill: white;
+}
+
+.slds-button_icon {
+    display: flex;
+    align-items: center;
+}
+
+.banner-icon-color {
+    --sds-c-icon-color-foreground-default: white;
+}

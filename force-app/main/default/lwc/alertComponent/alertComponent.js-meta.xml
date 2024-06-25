@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata" fqn="alertComponent">
+    <apiVersion>61.0</apiVersion>
+    <isExposed>true</isExposed>
+    <targets>
+        <target>lightning__RecordPage</target>
+        <target>lightning__AppPage</target>
+        <target>lightning__HomePage</target>
+    </targets>
+    <targetConfigs>
+        <targetConfig targets="lightning__RecordPage, lightning__AppPage, lightning__HomePage">
+            <property name="type" type="String" label="Type (popup or banner)" datasource="popup,banner" description="Display type: popup or banner"/>
+            <property name="displayMethod" type="String" label="Display Popup Method" datasource="alert,toast" description="Display method: alert or toast"/>
+            <property name="alertType" type="String" label="Alert Type" datasource="warning,error,info" description="Alert type: warning, error, or info"/>
+            <property name="alertTitle" type="String" label="Alert Title" description="The alert title"/>
+            <property name="message" type="String" label="Message" description="The alert message"/>
+        </targetConfig>
+    </targetConfigs>
+</LightningComponentBundle>
