@@ -22,3 +22,16 @@ Although Salesforce will release a functionality in the Summer ’25 release to 
 - Lightning-alert
 
 <img src="img/alert_types.png" alt="TOTP Example" width="500"/>
+
+## Disclaimer
+
+This package is provided "as is", without warranties or guarantees of any kind, either express or implied.  
+You assume full responsibility for any outcomes resulting from its use. The author and contributors shall not be liable for any direct, indirect, incidental, or consequential damages, or any data loss arising from the use of this package in any Salesforce environment (production or sandbox).
+
+
+## Contact & Feedback
+
+Feedback, ideas, and contributions are very welcome!  
+Feel free to reach out:
+
+📧 **develop@mpdigitals.com**
